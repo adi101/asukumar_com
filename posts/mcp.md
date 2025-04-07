@@ -28,7 +28,7 @@ Can you imagine a world where, based on raw customer data stored in a database, 
 
 Not everything would be done through a text/chat interface. What if, when necessary, the agent generated a custom UI for a discrete human interaction?[^7]
 
-If you believe in this second view of the world, there's about 50% of public (and 60% of private) tech company value that's waiting to be eaten by foundational models and their client agents. In this world, applications are just databases and servers. In other words, infrastructure.
+If you believe in this second view of the world, there's about 50% of public (and 60% of private) tech company value that's waiting to be eaten by foundational models and their client agents. In this world, applications are just databases and servers.
 
 ---
 
