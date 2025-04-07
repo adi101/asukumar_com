@@ -16,7 +16,7 @@ It's hard to see tranditional enterprise software capturing the same amount of v
 
 Take CRMs. A sales rep doesn't care whether their AI model is pulling customer data from Hubspot or Salesforce. Sure - the data might be stored in a different way in one vs. the other[^4]. But it'll get presented to the user in the same interface by ChatGPT, or Claude, or Gemini, or whatever.
 
-To that point - what if the data's just stored in a Postgres database somewhere? If the model knows where the information you need is, when you need it, why can't it just talk to the database[^5] and pull the data directly?
+To that point - what if the data's just stored in a MySQL database somewhere? If the model knows where the information you need is, when you need it, why can't it just talk to the database[^5] and pull the data directly?
 
 Of course, apps aren't just a CRUD UI on top of a database. They have role-based access control and use domain-specific logic - both of which make them critical for enterprises. The real question is whether those functions can be brought into the model layer.
 
