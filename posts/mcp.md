@@ -6,15 +6,11 @@ Private market valuations (putting aside OpenAI and Anthropic) are skewed toward
 
 There are two views of where we go from here.
 
-The first is that the foundational models become a pseudo infrastructure layer, with apps continuing to own the interface between the customer and the product:
-
-user <-ui-> app <-api-> model <-storage/compute-> infra
+The first is that the foundational models become a pseudo infrastructure layer, with apps continuing to own the interface with the customer. The apps then call AI models to process business logic before processing the results and presenting them to the customer.
 
 In this world, applications continue to enjoy the advantages they have today. They can build moats through their customer relationships[^3], they have pricing power because of those moats, and they have operating leverage with very low variable costs. And as inference continues to get cheaper, those variable costs do as well.
 
-But there's another view of the world: one where the model is what the customer is interacting with, and the app is just a service that the model can access (through an [mcp server](https://modelcontextprotocol.io/introduction)):
-
-user <-agent-> model <-mcp-> app <-storage/compute-> infra
+But there's another view of the world: one where the model is what the customer is interacting with, and the app is just a service that the model can access (through an [mcp server](https://modelcontextprotocol.io/introduction)).
 
 It's hard to see tranditional enterprise software capturing the same amount of value in this world. There's no switching cost!
 
